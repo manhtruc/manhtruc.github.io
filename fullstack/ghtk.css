@@ -1,0 +1,280 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+#wrap-head {
+    background-color: lightgrey;
+    height: 50px; 
+}
+#head{
+    height: 50px;
+    padding: 5px;
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#down-load {
+    width: 400px;
+    background: lightpink;
+    border: 1px solid black;
+    ma
+}
+#inbox {
+    width: 250px;
+    background: lightskyblue;
+    border: 1px solid black;
+}
+#wrap-menu{
+    height: 100px;
+    background: white;
+}
+#menu{
+    height: 100px;
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    
+    width: 300px;
+    background: cadetblue;
+}
+#sub-menu{
+   
+    width: 600px;
+    background-color: lightgreen ;
+}
+#sub-menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 80px;
+}
+#ul-menu li a{
+    text-decoration: none;
+}
+#wrap-main{
+    height: 425px;
+    background-color: lightgrey;
+}
+#main{
+    margin: 0px 200px;
+    padding: 2px;
+    display: flex;
+}
+#news{
+    height: 420px;
+    width: 60%;
+    background-color: lightyellow;
+}
+#menu2 {
+    height: 420px;
+    width:40% ;
+    background-color: magenta;
+}
+.sub-menu2{
+    border: 1px solid black;
+    height: 20%;
+}
+#wrap-section{
+   height: 728px; 
+   padding: 50px 0px;
+   background-color: white;
+}
+#section {
+    height: 628px;
+    margin: 0px 200px;
+    background-color: lightpink;
+    display: flex;
+}
+#map{
+ width: 50%;
+
+ background-color: lightgreen;
+  height: 628px;
+}
+#marketing{
+    width: 50%;
+    background-color: lightseagreen;
+    height: 314px;
+}
+#wrap-select{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+}
+#tinh, #search{
+    display: block;
+    width: 50%;
+    height: 30px;
+}
+h3 {
+    text-align: center;
+}
+#wrap-active{
+background-color: lightgray;
+padding: 20px 0px;
+height: 265px;
+}
+#active{
+    margin: 0px 200px;
+    display: flex;
+    
+}
+.active-logo{
+    width: 20%;
+    height: 245px;
+    border: 1px solid black;
+    background: white;
+}
+#wrap-text-widget{
+    height: 645px;
+    background-color: white;
+}
+#text-widget{
+    margin: 0px 200px;
+    display: flex;
+    height: 645px;
+}
+#do-you-know{
+    width: 50%;
+    background-color: lightskyblue;
+}
+#colum-6{
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    background-color: limegreen;
+}
+.sub-colum-6{
+    flex-grow: 1;
+    border: 1px solid black;
+}
+#wrap-customer{
+    height: 265px;
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+#customer{
+    margin: 0px 200px;
+}
+#slide-ghtk{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+}
+
+#slide-ghtk div:nth-child(4n+1){
+    flex-basis: 40%;
+}
+#slide-ghtk div:not(:nth-child(4n+1)){
+    flex-basis: 20%;
+}
+
+.img-responive{
+    border: 1px solid black;
+   
+    height: 70px;
+}
+
+#wrap-blog{
+    height: 265px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+#blog{
+    margin: 0px 200px;
+}
+#slide-ghtk-2{
+    margin-top: 50px;
+    display: flex;
+    
+    flex-wrap: wrap ;
+}
+#slide-ghtk-2 div{
+    flex-basis: 25%;
+    height: 70px;
+}
+
+
+#first-foot{
+    height: 85px;
+    background-color: black;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+#st-left{
+    margin-top: 10px;
+    
+    
+    color: white;
+   margin-left: 200px;
+}
+#st-right{
+    
+    
+    text-align: center;
+    
+}
+#dky{
+    background: yellowgreen;
+    color: white;
+    width: 270px;
+    height: 50px;
+    margin: 16px 10px;
+}
+#last-foot{
+    height: 136px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#last-left{
+    color: white;
+   text-align: left;
+    margin-left: 200px;
+}
+#last-left a {
+    color: white;
+    text-decoration: none;
+}
+#last-left a:hover {
+    text-decoration: underline;
+    color: green;
+}
+#last-link li{
+    display: inline-block;
+    margin: 0px 5px;
+}
+#last-link2 li{
+    display: inline-block;
+    margin: 0px 5px;
+
+}
+
+#last-right{
+    color: white;
+}
+#last-right > p {
+    text-align: right;
+    margin-right: 10px;
+}
+#last-icon {
+    border: 1px solid white;
+    height: 37px;
+    margin-top: 12px;
+    background-color: white;
+}
+
+    
+
